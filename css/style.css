@@ -2,6 +2,10 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* ======================Manrope Font Link ======================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -35,68 +39,106 @@ div {
   padding: 0;
 }
 
+:root {
+  --Bg-Banner: #1c1e53;
+  --Yellow: #fcd980;
+  --Royal-Blue: #2405f2;
+  --Dark-blue: #282938;
+  --White: #fff;
+  --Grey: #f4f6fc;
+  --Black: #000;
+  --Manrope: "Manrope", sans-serif;
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
 /* ================================================
             Navbar Part Css Start
 ===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
+#navbar_part {
+  padding: 32px 0;
+  background: var(--Bg-Banner);
+}
+#navbar_part .custom_menu a {
+  color: #bbbbcb;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-right: 26px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+}
+#navbar_part .custom_menu a:hover {
+  color: var(--White, #fff);
+}
+#navbar_part .Btn button {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 16px 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  background: transparent;
+  margin-left: 16px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#navbar_part .Btn button:hover {
+  color: var(--Dark-blue, #282938);
+  background: var(--Grey);
+}
 
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
+#navbar_part .banner_part {
+  padding: 128px 0;
+}
+#navbar_part .banner_part .banner_text h1 {
+  color: var(--White, #fff);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 74px;
+  margin-bottom: 32px;
+}
+#navbar_part .banner_part .banner_text p {
+  color: var(--White, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  opacity: 0.7;
+  margin-bottom: 32px;
+}
+#navbar_part .banner_part .banner_text a {
+  color: var(--Dark-blue, #282938);
+  background: var(--Yellow);
+  font-family: var(--Manrope);
+  font-weight: 600;
+  line-height: 32px;
+  padding: 16px 48px;
+  border-radius: 41px;
+  transition: all linear 0.2s;
+  -webkit-transition: all linear 0.2s;
+  -moz-transition: all linear 0.2s;
+  -ms-transition: all linear 0.2s;
+  -o-transition: all linear 0.2s;
+  display: inline-block;
+}
+#navbar_part .banner_part .banner_text a:hover {
+  color: var(--Dark-blue, #282938);
+  background: var(--Grey, #f4f6fc);
+  transform: translate(8%);
+  -webkit-transform: translate(8%);
+  -moz-transform: translate(8%);
+  -ms-transform: translate(8%);
+  -o-transform: translate(8%);
+}
 
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
-/* ================================================
-            Navbar Part Css End
-===================================================*/
-
-/* ================================================
-            Navbar Part Css Start
-===================================================*/
 /* ================================================
             Navbar Part Css End
 ===================================================*/
