@@ -142,3 +142,86 @@ body {
 /* ================================================
             Navbar Part Css End
 ===================================================*/
+
+/* ================================================
+            Work Part Css Start
+===================================================*/
+#work_part .work_logo_part {
+  padding: 96px 0;
+}
+#work_part .logo_text {
+  cursor: pointer;
+}
+#work_part .logo_text h5 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+}
+#work_part .logo_text p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+}
+#work_part .logo_icon {
+  margin-top: 30px;
+  margin-left: 54px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+  cursor: pointer;
+}
+#work_part .logo_icon:hover {
+  transform: translateY(-30%);
+  -webkit-transform: translateY(-30%);
+  -moz-transform: translateY(-30%);
+  -ms-transform: translateY(-30%);
+  -o-transform: translateY(-30%);
+}
+
+#work_part .work_body .work_heaeding h2 {
+  color: var(--Dark-blue, #282938);
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 48px;
+}
+#work_part .work_body .work_box {
+  background: var(--Grey, #f4f6fc);
+  padding: 50px 32px 48px 48px;
+  transition: all linear 0.3s;
+  -webkit-transition: all linear 0.3s;
+  -moz-transition: all linear 0.3s;
+  -ms-transition: all linear 0.3s;
+  -o-transition: all linear 0.3s;
+}
+#work_part .work_body .work_box:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  cursor: pointer;
+}
+
+#work_part .work_body .work_box h6 {
+  color: var(--Dark-blue, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-top: 26px;
+}
+#work_part .work_body .work_box p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.7;
+  padding-top: 12px;
+}
+
+/* ================================================
+            Work Part Css End
+===================================================*/
