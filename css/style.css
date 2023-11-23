@@ -225,3 +225,47 @@ body {
 /* ================================================
             Work Part Css End
 ===================================================*/
+
+/* ================================================
+            Client Part Css Start
+===================================================*/
+#client_part {
+  padding: 128px 0;
+}
+#client_part .client_content_text h6 {
+  margin-top: 41px;
+}
+.client_content_text h6 {
+  color: var(--Black, #000);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 69px;
+}
+.client_content_text h3 {
+  color: #232536;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-top: 16px;
+  margin-bottom: 19px;
+}
+.client_content_text p {
+  color: var(--Dark-blue, #282938);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  opacity: 0.6;
+  padding-right: 17px;
+}
+.client_img {
+  margin-left: 81px;
+}
+.client_img img {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
+  cursor: pointer;
+}
+
+/* ================================================
+            Client Part Css End
+===================================================*/
