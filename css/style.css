@@ -311,3 +311,50 @@ body {
 /* ================================================
             Delivery Part Css End
 ===================================================*/
+
+/* ================================================
+            Acordion Part Css Start
+===================================================*/
+
+#accordion_part {
+  padding: 128px 0;
+}
+#accordion_part .accordion_left h3 {
+  color: var(--Dark-blue, #282938);
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+#accordion_part .accordion_left a {
+  color: var(--Royal-Blue, #2405f2);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+}
+#accordion_part .accordion_right span {
+  color: var(--Royal-Blue, #2405f2);
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  margin-right: 55px;
+}
+#accordion_part .accordion_right h4 {
+  color: var(--Dark-blue, #282938);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+}
+#accordion_part .accordion_right p {
+  color: var(--Dark-blue, #282938);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 82px;
+  opacity: 0.87;
+}
+
+/* ================================================
+            Acordion Part Css End
+===================================================*/
