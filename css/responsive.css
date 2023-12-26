@@ -1,0 +1,47 @@
+/* ======== Large Device Respinsive ========  */
+
+@media (max-width: 1199.98px) {
+  #navbar_part .banner_part .banner_text h1 {
+    font-size: 41px;
+    line-height: 60px;
+  }
+  #work_part .work_body .work_heaeding h2 {
+    font-size: 42px;
+    line-height: 59px;
+  }
+  #work_part .work_body .work_box {
+    padding: 42px 32px 48px 34px;
+  }
+  #work_part .work_body .work_box h6 {
+    font-size: 21px;
+  }
+  #work_part .work_body .work_box p {
+    font-size: 15px;
+  }
+  #client_part .client_content_text h6 {
+    margin-top: 9px;
+  }
+  .client_content_text h6 {
+    margin-top: 28px;
+  }
+  .client_content_text h3 {
+    font-size: 27px;
+    line-height: 39px;
+  }
+  .client_content_text p {
+    font-size: 15px;
+  }
+  #accordion_part .accordion_left h3 {
+    font-size: 27px;
+    line-height: 45px;
+  }
+  #footer_part .footer_left p {
+    padding-right: 28px;
+  }
+  #footer_part .footer_right p {
+    padding-right: 50px;
+  }
+  #last_part .last_left_part a {
+    font-size: 14px;
+  }
+}
